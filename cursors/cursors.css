@@ -1,0 +1,5 @@
+/* common cursor styles */
+
+.drop-shadow {
+	filter: url(./-common.svg#def-drop-shadow);
+}

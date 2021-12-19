@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   inkscape:hotspot_x="4"
+   inkscape:hotspot_y="4"
+   style="fill:gray;stroke:black"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="text.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview38"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="19.5"
+     inkscape:cx="15.974359"
+     inkscape:cy="15.974359"
+     inkscape:window-width="1600"
+     inkscape:window-height="826"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="cursor" />
+  <style
+     id="style2">@import './cursors.css';</style>
+  <defs
+     id="defs4" />
+  <!-- Cross (centered on hotspot) -->
+  <use
+     xlink:href="-common.svg#def-cross"
+     id="use29" />
+  <!-- "A"  -->
+  <g
+     id="cursor"
+     class="drop-shadow"
+     style="">
+    <!-- Outline -->
+    <path
+       d="m 14,7.5 h 4 l 5.5,16 h -4 l -1,-3 h -5 l -1,3 h -4 z"
+       style="fill:white;stroke:white;stroke-width:3px;stroke-opacity:1"
+       id="path31" />
+    <!-- Letter -->
+    <path
+       d="m 14,17.5 h 4 l -2,-6.5 z m 0,-10 h 4 l 5.5,16 h -4 l -1,-3 h -5 l -1,3 h -4 z"
+       style="fill:#4d4d4d;stroke:#4d4d4d;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+       id="path33" />
+  </g>
+</svg>

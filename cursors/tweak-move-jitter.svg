@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="32" height="32"
+     inkscape:hotspot_x="4"
+     inkscape:hotspot_y="4"
+     style="fill:gray;stroke:black">
+
+  <style>@import './cursors.css';</style>
+
+  <defs>
+
+    <!-- Arrows -->
+    <g id="arrows">
+      <path d="m17.5,2.5 -4,4 4,4 m 6,-4 h -10"/>
+      <path d="m 14.5,21.5 h 7 v -7 m -11.5,-4.5 11.5,11.5"/>
+      <path d="m 21.5,25.5 4,4 4,-4 m -4,-6 v 10"/>
+      <path d="m 9.5,30.5 4,-4 -4.5,-4 m -6.5,4 h 11"/>
+      <path d="m 2.5,16.5 4,4 4,-4 m -4,-6 v 10"/>
+      <path d="m 30.5,12.5 -4,-4 -4,4 m 4,6 v -10"/>
+    </g>
+
+  </defs>
+
+  <!-- Cross (centered on hotspot) -->
+  <use xlink:href="-common.svg#def-cross"/>
+
+
+  <g id="cursor" style="fill:none">
+    <use xlink:href="#arrows" style="stroke:white;stroke-width:3px"/>
+    <use xlink:href="#arrows" style="stroke:black;stroke-width:1px"/>
+  </g>
+</svg>
