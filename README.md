@@ -11,7 +11,7 @@ Inkscape will use the `.svg`s in our own `cursors` folder!
 ### Installation overview
 1. Navigate to where Inkscape looks for a `cursors` folder (see below)
 2. If a `cursors` folder already exists, rename it to something else
-3. Download the `cursors` folder from the files up above, and extract it into the same folder where the old `cursors` folder was
+3. Download the `cursors` folder and extract it into the same folder where the old `cursors` folder was
 4. Open Inkscape, switch to another tool and back, and Inkscape will automatically update the cursors like magic :sparkles:
 
 For detailed help, follow the instructions below :)
@@ -56,3 +56,13 @@ Open up Inkscape, switch to a different tool then back (i.e. F2, F1) then you sh
 
 :warning: *If it isn't showing up, try restarting Inkscape, and if not, it's probably because user-specifc Inkscape cursors are taking precendence over system-wide Inkscape cursors.
 On Linux, double check that `~/.config/inkscape/icons/hicolor/cursors/` does not use the default Inkscape cursors.*
+
+## Contributing
+
+Fork the repo on github, edit the files locally, and pull request back here :sparkles:
+
+You can also [grab a copy](https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors) of the cursors, and begin editing them.
+
+There is a drop-shadow effect I've made that you can use to get a consistent drop-shadow effect for the cursors. Breeze cursors use it, and I've matched the drop-shadow effect as near as I can tell. To use the effect or remove it, you'll need to open up the XML editor, and add `;filter:url(./-common.svg#def-drop-shadow);` at the very end of the `style` attribute. Drop shadows should only be applied on the outlines of the cursors.
+
+Thanks 💖
