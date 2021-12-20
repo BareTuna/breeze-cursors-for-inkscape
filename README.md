@@ -43,7 +43,7 @@ So, rename `cursors` to `default-cursors`.
 
 ### 3 - Download the breeze `cursors` directory
 Download the cursors folder here:\
-[https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors](https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors)\
+<a href="https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors" target="_blank">https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors</a>\
 Download and/or move the `cursors.zip` to the correct folder from step 1
 
 ### 4 - Extract
@@ -61,7 +61,7 @@ On Linux, double check that `~/.config/inkscape/icons/hicolor/cursors/` does not
 
 Fork the repo on github, edit the files locally, and pull request back here :sparkles:
 
-You can also [grab a copy](https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors) of the cursors, and begin editing them.
+You can also <a href="https://downgit.github.io/#/home?url=https://github.com/BareTuna/breeze-cursors-for-inkscape/tree/main/cursors" target="_blank">grab a copy</a> of the cursors, and begin editing them.
 
 There is a drop-shadow effect I've made that you can use to get a consistent drop-shadow effect for the cursors. Breeze cursors use it, and I've matched the drop-shadow effect as near as I can tell. To use the effect or remove it, you'll need to open up the XML editor, and add `;filter:url(./-common.svg#def-drop-shadow);` at the very end of the `style` attribute. Drop shadows should only be applied on the outlines of the cursors.
 
